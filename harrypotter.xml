@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question ans="first" q="Are you in Gryffindor?">
+    <question ans="yes" q="Are you a teacher?">
+        <question ans="yes" q="Are you the headmaster?">
+            <answer ans="yes">
+				Dumbledore
+			</answer>
+            <answer ans="no">
+				McGonagall
+			</answer>
+        </question>
+        <question ans="no" q="Are you a Weasley?">
+            <question ans="yes" q="Do you have a twin?">
+                <answer ans="yes">
+					Fred
+				</answer>
+                <answer ans="no">
+					Ron
+				</answer>
+            </question>
+            <question ans="no" q="Are you the Keeper of Keys?">
+                <answer ans="yes">
+					Hagrid
+				</answer>
+                <question ans="no" q="Are you a nerd?">
+                    <question ans="yes" q="Did you ever have a pet frog?">
+                        <answer ans="yes">
+						Neville Longbottom
+						</answer>
+                        <answer ans="no">
+						Hermoine Granger
+						</answer>
+                    </question>
+                    <answer ans="no">
+                    	Harry
+                    </answer>
+                </question>
+            </question>
+        </question>
+    </question>
+    <question ans="no" q="Are you in Slytherin?">
+        <question ans="yes" q="Are you a Teacher?">
+            <answer ans="yes">
+				Snape
+			</answer>
+            <question ans="no" q="Are you bad?">
+                <answer ans="yes">
+					Voldemort
+				</answer>
+                <answer ans="no">
+					Goyle
+				</answer>
+            </question>
+        </question>
+        <question ans="no" q="Are you a Ghost?">
+            <question ans="yes" q="Are you a female?">
+                <answer ans="yes">
+					Myrtle
+				</answer>
+                <answer ans="no">
+					Nearly Headless Nick
+				</answer>
+            </question>
+            <question ans="no" q="Are you in Hufflepuff?">
+                <question ans="yes" q="Are you female?">
+                    <answer ans="yes">
+						Susan
+					</answer>
+                    <answer ans="no">
+						Cedric
+					</answer>
+                </question>
+                <answer ans="no">
+					Luna
+				</answer>
+            </question>
+        </question>
+    </question>
+</question>
